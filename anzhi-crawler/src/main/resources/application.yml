@@ -1,0 +1,14 @@
+server:
+  port: 10001
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/app-crawler?characterEncoding=UTF8
+    username: guest
+    password: 123456
+  jpa:
+    database: MySQL
+    show-sql: true
+  redis:
+    host: 127.0.0.1
+
